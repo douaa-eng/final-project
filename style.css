@@ -1,0 +1,63 @@
+/* Arrière-plan avec image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive;
+  
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Carte centrale */
+.carte {
+  padding: 50px;
+  text-align: center;
+  width: 300px;
+  border: 1px solid rgb(255, 255, 253);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+  /* Image de fond appliquée uniquement à la carte */
+  background: url('font.jpeg') no-repeat center center;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Ajout d’un fond semi-transparent pour le contenu si besoin */
+  color: #000;
+}
+
+
+/* Image de la bague */
+.bague {
+  width: 150px;
+  margin: 20px auto;
+}
+
+/* Noms en style calligraphique */
+.nom {
+  font-size: 36px;
+  color: #d4af37; /* Doré */
+  margin: 10px 0;
+}
+
+/* Positionnement du nom au-dessus et en-dessous de l'image */
+.nom-haut {
+
+  margin-top:20px;
+}
+
+.nom-bas {
+  margin-bottom: 20px;
+}
+
+/* Texte d'invitation */
+.texte {
+  font-size: 22px;
+  color: #b78d04;
+  margin-top: 20px;
+  line-height: 1.6;
+}
